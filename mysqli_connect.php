@@ -1,14 +1,14 @@
-<?php # Phase 1 - - mysqli_connect.php
+<?php # Phase 1 - mysqli_connect.php
 
 // This file contains the database *Access Information*.
 // This file also establishes *MySQL Connection*
 // selects the database, and sets the encoding.
 
 // [Set] *Access Information* (as constants)
-DEFINE ( 'DB_USER',		'admin'		);
-DEFINE ( 'DB_PASSWORD',	'admin'		);
-DEFINE ( 'DB_HOST',		'localhost' );
-DEFINE ( 'DB_NAME',		'traveler'	);
+DEFINE ( 'DB_USER',     'admin'     );
+DEFINE ( 'DB_PASSWORD', 'admin'     );
+DEFINE ( 'DB_HOST',     'localhost' );
+DEFINE ( 'DB_NAME',     'traveler'  );
 
 // *MySQL Connection* (assign ARGUMENTS to $dbc)
 $dbc = @mysqli_connect ( DB_HOST, DB_USER, DB_PASSWORD, DB_NAME ); // *Argument order relevant*
