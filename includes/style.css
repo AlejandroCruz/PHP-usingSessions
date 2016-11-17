@@ -1,7 +1,4 @@
-/*
-	From Phase 1
-*/
-* {
+{
 	border:0;
 	margin:0;
 	padding:0;
@@ -104,7 +101,6 @@ body {
 	width:751px;
 }
 
-/* Added by Larry Ullman: */
 .error, .ad {
 	font-weight: bold;
 	color: #C00
@@ -119,7 +115,7 @@ input, select, .input {
 	border:1px dotted #004080;
 }
 
-#display_db {
+.display_db {
 	color: #68B101;
 }
 #warning {

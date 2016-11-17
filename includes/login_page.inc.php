@@ -1,26 +1,19 @@
-<?php # Phase 2 - login_page.inc.php
-/* 
- * This page is included in login.php and prints any errors associated with logging in and 
- *  creates the entire login page, including the form
- */
+<?php
 
 $page_title = 'Login';
 include( 'includes/header.html' );
 
-// Print error messages (text book design; for display/print purposes only?).......................?
 if( isset( $errors ) && !empty( $errors ) ) {
 	echo'
 	<p><b>Error!</b><br /><br />
 	<span class="error">The following errors occured:</span><br />';
-	foreach( $errors as $msg ) { // Unordered list for errors
+	foreach( $errors as $msg ) {
 		echo "$msg<br />\n";
 	}
-	echo '</p>';
-	
-} // END if(isset($errors...
-?>
+	echo '</p>';	
+}
 
-<!-- Open HTML Form ---------------------------------------------------------------------------- -->
+?>
 
 <div class="cut_h1">
 <h1>Member Log In</h1>
@@ -51,13 +44,8 @@ if( isset( $errors ) && !empty( $errors ) ) {
 	</form>
 </div>
 
-<!-- Close HTML Form --------------------------------------------------------------------------- -->
-
 <?php
 
 include ('includes/footer.html');
 
-#--------------------------------------------------------------------------------------------------#
-# Close HTML page
-#--------------------------------------------------------------------------------------------------#
 ?>

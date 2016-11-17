@@ -1,19 +1,15 @@
-<?php # Phase 2 - index.php
-// Log-in form that permits user access to database interface
+<?php
 
-// Start session
 session_start();
 
-$page_title = 'COP2833 :: Phase 2'; //set page title variable
+$page_title = 'COP2833 :: Phase 2';
 include( 'includes/header.html' );
 
 ?>
+
 <h1 id="mainhead">Phase 2: Insert Into Database</h1>
-<p>This site permits the user access to a control panel for a Web-based travel magazine. It creates scripts that interact with
-the <i>Traveler</i> database. The site includes menu tabs for <b>Welcome</b> page, <b>Insert</b> page that allows user to
- enter product information into database, and <b>Log In/Out</b> tab to end user&#8217s session.</p>
-<br />
-<br />
+<p>This site permits the user access to a control panel for a Web-based travel magazine. It creates scripts that interact with the <i>Traveler</i> database. The site includes menu tabs for <b>Welcome</b> page, <b>Insert</b> page that allows user to enter product information into database, and<b>LogIn/Out</b> tab to end user&#8217s session.</p>
+<br /><br />
 <div class="list">
 	<ul>
 		<li>The <i>Welcome</i> and <i>Insert</i> tabs become enabled after logging in.</li>
