@@ -2,7 +2,7 @@
 
 session_start();
 
-$page_title = 'COP2833 :: Phase 2';
+$page_title = 'PHP Web Application';
 include( 'includes/header.html' );
 
 ?>
